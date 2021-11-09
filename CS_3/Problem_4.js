@@ -13,9 +13,9 @@ function reverseNumber(num){
 
 function isPalindrome(number){
     const num1 = number;
-    let inverse = inverseNumber(number);
+    let reverse = reverseNumber(number);
    
-    if(inverse == num1){
+    if(reverse == num1){
         return true;
     }
          return false;
