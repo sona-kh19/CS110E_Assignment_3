@@ -8,7 +8,6 @@ function primesInInterval(num1, num2) {
         for (n = 2; n <= Math.sqrt(i); n++) {
            if (i % n === 0) {
             check = false;
-            //break;
            }
         } 
      
