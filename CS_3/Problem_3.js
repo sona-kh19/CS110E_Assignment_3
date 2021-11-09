@@ -1,9 +1,9 @@
 function reverseNumber(num){
-   let digit, strnum = "";
+   let rem, strnum = "";
     while (num > 0){
-        digit = num % 10;
-        strnum = strnum + digit;
-        num = (num-digit)/10;
+        rem = num % 10;
+        strnum = strnum + rem;
+        num = (num-rem)/10;
     }
 return strnum;
 }
